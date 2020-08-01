@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8175aab-b008-4279-a908-d82091f1c01c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfficientEnsemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/EfficientEnsemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvfiles/validation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csvfiles/validation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csvfiles/validation_truth.csv" beforeDir="false" afterPath="$PROJECT_DIR$/csvfiles/validation_truth.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/isicDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/isicDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +111,9 @@
       <workItem from="1587167468314" duration="102000" />
       <workItem from="1588166402733" duration="20538000" />
       <workItem from="1588424174965" duration="8426000" />
+      <workItem from="1592220974815" duration="7816000" />
+      <workItem from="1593091890044" duration="13460000" />
+      <workItem from="1593348347785" duration="14025000" />
     </task>
     <servers />
   </component>
@@ -116,7 +125,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

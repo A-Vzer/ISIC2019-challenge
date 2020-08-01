@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 import torch
-from efficientnet_pytorch import utils, EfficientNet
+from efficientnet_pytorch import utils
 
 
 class EfficientEnsemble(nn.Module):

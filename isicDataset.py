@@ -6,7 +6,7 @@ import numpy as np
 
 
 # Create dataset from ISIC images
-class ISICDatset(Dataset):
+class ISICDataset(Dataset):
     def __init__(self, img_path, transform, csv_path=None, test=False):
         self.targets = pd.read_csv(csv_path)
         self.img_path = img_path
@@ -14,7 +14,8 @@ class ISICDatset(Dataset):
         self.test = test
 
     def __getitem__(self, index):
-        img_name = os.path.join(self.img_path, f'{self.targets.iloc[index, 0]}.jpg')
+        img_name = os.path.join(self.img_path,
+                                f'{self.targets.iloc[index, 0]}.jpg')
         img = Image.open(img_name)
         img = self.transform(img)
         if not self.test:
